@@ -17,7 +17,7 @@ nocache('./Ramdani.js', module => console.log(`${module} telah di update!`))
 const starts = async (Ramdani = new WAConnection()) => {
     Ramdani.logger.level = 'warn'
     Ramdani.version = [2,2143,3]
-    Ramdani.browserDescription = ['BLESS OFFICIAL','Yandex', '3.0']
+    Ramdani.browserDescription = ['BLESS OFC','Google Chrome', '3.0']
     console.log(banner)
     Ramdani.on('qr', () => {
         console.log(color('[SCAN]','red'), color('SEDANG MENUNGGU DI SCAN🔍'))

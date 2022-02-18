@@ -71,6 +71,7 @@ ig = "instagram.com/blessbotz_ofc"
 tt = "blessreal123"
 yt = "https://youtube.com/c/MRBLESSwer53Ser"
 github = "Bless-botzz"
+heroku = "bless-botzz"
 
 //━━━━━━━━━━━━━━━[ Sticker WM ]━━━━━━━━━━━━━━━\\
 
@@ -602,7 +603,7 @@ anu =`┏━━>[ Info Botz ]
    ┣ • *Github* : ${github}
    ┣ • *Heroku* : ${heroku}   
    ┗━━━━━━━━━━━> `
-sendButImage(from, anu,`jangan spam bot, kasih jeda 5 detik  agar bot tidak bug/delay\n© Creator By Ramdani Official\n${Tanggal}`, thumb, [
+sendButImage(from, anu,`jangan spam bot, kasih jeda 5 detik  agar bot tidak bug/delay\n© Creator By BlessXd Official\n${Tanggal}`, thumb, [
             {buttonId: `${prefix}c`, buttonText: {displayText: `COMMAND`, }, type: 1, },
             {buttonId: `${prefix}sc`, buttonText: { displayText: `SCRIPT`, }, type: 1, },
             ]); 

@@ -66,13 +66,12 @@ publik = true
 namabot = setting.BotName
 namaowner = setting.OwnerName
 nomorowner = setting.OwnerNumber
-website = "https://ramdaniofficial.blogspot.com/?m=1"
-wa = "wa.me/6289512545999"
-ig = "Ramdani store"
-tt = "iFanny Tiktok"
-yt = "Ramdani Official"
-github = "RamdaniStore"
-heroku = "RamdaniOfficial"
+wa = "wa.me/6283845329280"
+ig = "instagram.com/blessbotz_ofc"
+tt = "blessreal123"
+yt = "https://youtube.com/c/MRBLESSwer53Ser"
+github = "Bless-botzz"
+heroku = "bless-botzz"
 
 //━━━━━━━━━━━━━━━[ Sticker WM ]━━━━━━━━━━━━━━━\\
 
@@ -148,7 +147,7 @@ module.exports = Ramdani = async (Ramdani, mek) => {
 				daftar: `maaf Kamu Belum Terdaftar Silahkan Daftar Ketik .daftar`,
 				wait: 'Tunggu sebentar dekks....',
 				banned: 'Luh dah di banned awoakawok, chat owner untuk di ruqyah',
-				success: 'Nih deks jan lupa subscribe https://youtube.com/channel/UCB157jomCne961WzYHpG4gg',
+				success: 'Nih deks jan lupa subscribe https://youtube.com/c/MRBLESSwer53Ser',
 				error: {
 					stick: 'Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker',
 					Iv: 'Luh ngasih link apaan tolol'
@@ -554,15 +553,15 @@ const froxx = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text": `New Base By Ramdani Official`,
-                 "title": `New Base By Ramdani Official`,
+                 "text": `New Base By MhankBarBar`,
+                 "title": `New Base By MhankBarBar`,
                  'jpegThumbnail': fs.readFileSync("./lib/Ramdani.jpg"),
                         }
 	                  } 
                      }
 //━━━━━━━━━━━━━━━[ BUAT BIO BOT ]━━━━━━━━━━━━━━━\\
 runi = process.uptime() 
-           Ramdani.setStatus(`Ramdani botz Aktif Selama ${kyun(runi)} `).catch((_)=>_);
+           Ramdani.setStatus(`Bless-Botzz Aktif Selama ${kyun(runi)} `).catch((_)=>_);
           settingstatus = new Date() * 1;
 //━━━━━━━━━━━━━━━[ JAM ]━━━━━━━━━━━━━━━\\
 const jmn = moment.tz('Asia/Jakarta').format('HH.mm')
@@ -597,7 +596,6 @@ anu =`┏━━>[ Info Botz ]
 ┣ • *Nama Own* : ${namaowner}
 ┗━━━━━━━━━━━>
    ┏━━>[ Sosial Media Creator ]
-   ┣ • *Website* : ${website}
    ┣ • *Wa* : ${wa}
    ┣ • *Tiktok* : ${tt}
    ┣ • *Instagram* : ${ig}
@@ -617,7 +615,7 @@ case 'simpelmenu':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'PILIH DISINI',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By BlessXd Official',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Menunya disini`,
  sections: [
                      {
@@ -725,7 +723,7 @@ case 'sm':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'PILIH DISINI',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By BlessXd Official',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Command nya disini`,
  sections: [
                      {
@@ -772,7 +770,7 @@ case 'topupgame':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'PILIH DISINI',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By BlessXd Official',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Game nya disini`,
  sections: [
                      {
@@ -809,7 +807,7 @@ case 'topupsaldo':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'PILIH DISINI',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By BlessXd Official',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Aplikasi nya disini`,
  sections: [
                      {
@@ -846,22 +844,18 @@ case 'sewabot':
 if (isBanned) return reply(mess.banned)
 reply2(`━━━━━『 *LIST SEWA BOT* 』━━━━━
 
-❏ PERHARI : 1 HARI 2K, 5 HARI 10K 
-❏ PERMINGGU : 1MIN. 14K, 2MIN. 28K, 3MIN. 60K,
-❏ PERBULAN : 1B. 30K, 2B. 70K, 3B. 140K,
-❏ PERTAHUN : 1THN. 350K, 2THN. 700K,
-❏ PERMANEN : TIMDAK TERSEDIA!
+❏ PERHARI : 1 HARI 1K, 5 HARI 5K 
+❏ PERMINGGU : 1MIN 7K
+❏ PERMANEN : 10K
 *minat chat owner*`)
 break
 case 'buypremium':
 if (isBanned) return reply(mess.banned)
 reply2(`━━━━━『 *LIST PREMIUM* 』━━━━━
 
-❏ PERHARI : 2H. 1K, 5H. 4K, 7H 6K,
-❏ PERMINGGU : 1MIN. 6K, 2MIN. 10K, 3MIN. 15K,
-❏ PERBULAN : 1B. 18K, 2B. 28K, 3B. 38K,
-❏ PERTAHUN : 1THN. 100K
-❏ PERMANEN : 150K
+❏ PERHARI : 1H 3K, 5H 7K
+❏ PERMINGGU : 1MIN 9K,
+❏ PERMANEN : 12K
 *minat chat owner*`)
 break
 //buysc
@@ -872,81 +866,76 @@ case 'topupml':
 reply(`*💎DIAMOND ML💎*
 ➖➖➖➖➖➖➖➖➖➖➖
 
-39    💎= Rp.9.000
-65    💎= Rp.14.500
-92    💎= Rp.20.000
-133  💎= Rp.29.000
-266  💎= Rp.58.000
-400  💎= Rp.86.000
-534  💎= Rp.115.000
-670  💎= Rp.144.000
-709  💎= Rp.153.000
-735  💎= Rp.158.500
-803  💎= Rp.170.000
-936  💎= Rp.200.000
-1070💎=Rp.229.000
-1342💎=Rp.285.000
-1434💎=Rp.305.000
-1742💎=Rp.370.000
-2700💎=Rp.570.000
+44    💎= Rp.13.000
+86    💎= Rp.19.900
+113   💎= Rp.24.000
+168  💎= Rp.35.500
+172 💎= Rp.39.800
+257  💎= Rp.59.600
+344 💎= Rp.79.000
+460  💎= Rp.95.000
+600  💎= Rp.148.000
+706  💎= Rp.157.000
+878  💎= Rp.196.000
+963  💎= Rp.217.000
+1427 💎=Rp.281.500 (Promo)
+SL (STARLIGHT) MEMBER PLUS=Rp.300.500
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_© Creator By Ramdani Official_*    
+ *_© Creator By BlessXd Official_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topupff':
 reply(`*💎DIAMOND FREE FIRE💎*
 ➖➖➖➖➖➖➖➖➖➖➖
 
-20    💎 3.000
-50    💎 7.000
-70    💎 9.500
+5    💎 950
+12    💎 2.000
+50   💎 7.000
+70 💎 9.500
 100  💎 13.500
 140  💎 18.500
 210  💎 27.500
-280  💎 37.000
-355  💎 46.000
-425  💎 55.000
+355  💎 45.500
 500  💎 65.000
-720  💎 92.500
+720  💎 91.400
 860  💎 111.000
-1000💎 129.500
-1075💎 138.000
-1440💎 185.000
-2000💎 250.000
-2720💎 342.500
-3000💎 380.000
-4000💎 500.000
+1000💎 132.500
+1450💎 182.000
+2180💎 277.000
+3640💎 459.000
 MM : 28.000
-MB  : 140.000
+MB  : 137.000
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_©Creator by Ramdani Official_*    
+ *_©Creator by BlessXd Official_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topuppubg':
 reply(`➖➖➖➖➖➖➖➖➖➖➖
 
-- 🎟️60 = Rp14.000
-- 🎟️120 = Rp28.000
-- 🎟️240 = Rp56.000
+- 🎟️50 = Rp9.500
+- 🎟️125 = Rp23.000
+- 🎟️300 = Rp55.000
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_©Creator By Ramdani Official_*    
+ *_©Creator By BlessXd Official_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topupb':
 reply(`*🎟️POINT BLANK🎟️*
 ➖➖➖➖➖➖➖➖➖➖➖
 
-_tidak tersedia, ke Indomaret Sono_
- 
+1200 Pb Cash = 10.000
+2400 Pb Cash = 20.000
+36000 Pb Cash = 293.000
 ➖➖➖➖➖➖➖➖➖➖➖
- *_© Creator By Ramdani Official_*    
+ *_© Creator By BlessXd Official_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topupgopay':
 reply(`_chat owner_`)
+
 break
 case 'topupdana':
 reply(`_chat owner_`)
@@ -955,7 +944,7 @@ case 'topupovo':
 reply(`_chat owner_`)
 break
 case 'topuppulsa':
-reply(`_beli di warung sono_`)
+reply(`_chat owner_`)
 break
 //CASE BUT MENU NYA BWANG //BY RAMDANI OFC
 case 'asupanmenu':
@@ -1243,8 +1232,8 @@ case 'sc':
 case 'scrip':
 if (isBanned) return reply(mess.banned)
 reply2(`┏━━> [Script Bot]
-┣ • SC ORI : Ramdani Ofc
-┣ • RECODE : Ramdani Ofc
+┣ • SC ORI : 
+┣ • RECODE : 
 ┗━━━━━━━━━━━>`)
 break
 //══════════[ ASUPAN MENU ]════════════════════════════//
@@ -2195,7 +2184,7 @@ case 'bc':
              for (let _ of anu) {
              Ramdani.sendMessage(_.jid, 
 			{"contentText": `*「 BROADCAST ${namabot} 」*\n\n${body.slice(4)}`,
-			"footerText": 'by Ramdani botz',
+			"footerText": 'by BlessXd Official',
 			"buttons": [
 			{"buttonId": `${prefix}simpelmenu`,
 			"buttonText": {"displayText": "Simple Menu"
@@ -2232,8 +2221,8 @@ var intro = `ᴡᴇʟᴄᴏᴍᴇ
 ┌ > ᴜsɪᴀ : 
 ┌ > ɢᴇɴᴅᴇʀ : 
 ┌ > sᴛᴀᴛᴜs :
-ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴜʙsᴄʀɪʙᴇ ʏᴛ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ
-https://youtube.com/channel/UCB157jomCne961WzYHpG4ghttps://youtube.com/channel/UCB157jomCne961WzYHpG4gg
+ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴜʙsᴄʀɪʙᴇ ʏᴛ ᴍʀ ʙʟᴇss
+https://youtube.com/c/MRBLESSwer53Ser
 `
 Ramdani.sendMessage(from, intro, text, {quoted: ftrolMENU, contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true })
 break
@@ -2352,9 +2341,9 @@ anu =`Hallo, kak bantu donasi ya supaya bot lebih baik👋
 ╠════════════════════
 ║╭──❉ *DONASI KAK* ❉─────
 ║│➸ *GOPAY* : _tidak tersedia_
-║│➸ *DANA* : 089512545999
-║│➸ *OVO* : 089512545999
-║│➸ *PULSA* : 088296339947
+║│➸ *DANA* : 088975655140
+║│➸ *OVO* : _tidak tersedia_
+║│➸ *PULSA* : 083845329280
 ║╰──────────────────
 ╠════════════════════
 ║       
@@ -2362,9 +2351,9 @@ anu =`Hallo, kak bantu donasi ya supaya bot lebih baik👋
 ║  ▌│█║▌║▌║║▌║▌║█│▌
 ║        
 ╠════════════════════
-║ _*© CREATOR BY RAMDANI OFFICIAL*_
+║ _*© CREATOR BY BLESSXD OFFICIAL*_
 ╚════════════════════`
-sendButImage(from, anu,`donasi dulu om\n© Creator By Ramdani Official`, qris, [
+sendButImage(from, anu,`donasi dulu om\n© Creator By BlessXd Official`, qris, [
             {buttonId: `!ok`, buttonText: {displayText: `OKE BWANG🗿`, }, type: 1, },
             {buttonId: `!o`, buttonText: { displayText: `KAGA ADA DUIT BWANG🗿`, }, type: 1, },
             ]); 
